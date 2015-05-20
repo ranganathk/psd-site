@@ -21,6 +21,27 @@
   h6 {
     color: #ecf0f1;
   }
+  .info {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    
+    .dividor {
+      background-color: blue;
+      width: 150px;
+      height: 4px;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    p {
+      display: inline-block;
+      margin-top: 10px;
+    }
+  }
 }
 
 
