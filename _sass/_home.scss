@@ -102,11 +102,44 @@
         &:hover {
           text-decoration: overline;
         }
-      }
-      
-      
-    }
-    
+      } 
+    }   
+  }
+}
+
+
+/*Footer*/
+
+#footer {
+  position: absolute;
+  top: 180%;
+  
+  .para-two {
+    display: inline-block;
   }
 
+  
+  .float-right {
+    
+    float: right;
+    transform: translateX(150%);
+    
+    .arrow-left {
+      display: inline-block;
+      width: 0; 
+      height: 0; 
+      border-top: 5px solid transparent;
+      border-bottom: 5px solid transparent; 
+      border-right: 5px solid #F2F1EF; 
+    }
+
+    .count {
+      display: inline-block;
+      width: 40px;
+      height: 20px;
+      background-color: #F2F1EF;
+      transform: translateX(-4px);
+      padding-left: 4px;
+    }
+  }
 }
