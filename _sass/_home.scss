@@ -15,11 +15,19 @@
   }
   form p {
     font-size: 24px;
-    color: #ecf0f1;
+    color: $light-grey;
+  }
+  button {
+    background-color: $light-blue;
+    
+    &:first-child {
+      background-color: #fff;
+    }
   }
   h6 {
     color: #ecf0f1;
   }
+
 
   .info {
     position: relative;
@@ -27,7 +35,7 @@
     text-align: center;
     
     .dividor {
-      background-color: blue;
+      background-color: $light-blue;
       width: 150px;
       height: 4px;
       position: relative;
@@ -41,6 +49,9 @@
     button {
       display: block;
       margin: 0 auto;
+      color: $light-blue;
+      background-color: #fff;
+      border-color: $light-blue;
     }
   }
 
@@ -48,7 +59,7 @@
     position: relative;
     top: 95%;
     text-align: center;
-    background-color: #22313F;
+    background-color: $dark-blue;
     width: 100vw;
     height: 50vh;
 
@@ -77,9 +88,15 @@
     
     .brand {
       float: left;
+      
+      a {
+        text-decoration: none;  
+      }
+
       h1 {
         font-family: 'Monsieur La Doulaise', cursive;
         margin-bottom: 0;
+        color: $light-blue;
       }
     }
     .links {
@@ -95,13 +112,13 @@
         a {
           padding-left: 5px;
           padding-right: 5px;
-          color: #ecf0f1;
+          color: $light-grey;
           border-top: 3px solid transparent;
           padding-top: 5px;
           
           &:hover {
             text-decoration: none;
-            border-top: 3px solid blue;
+            border-top: 3px solid $light-blue;
           }
         }
 
@@ -115,7 +132,7 @@
 
 #footer {
   position: relative;
-  top: 700px;
+  top: 720px;
   padding-bottom: 20px;
   .para-two {
     display: inline-block;
@@ -126,6 +143,13 @@
     
     float: right;
     
+    button {
+      color: #3a5795;
+      
+      &:first-child {
+        color: $light-blue;
+      }
+    }
     
     .arrow-left {
       display: inline-block;
@@ -133,14 +157,14 @@
       height: 0; 
       border-top: 5px solid transparent;
       border-bottom: 5px solid transparent; 
-      border-right: 5px solid #F2F1EF; 
+      border-right: 5px solid $light-grey; 
     }
 
     .count {
       display: inline-block;
       width: 40px;
       height: 20px;
-      background-color: #F2F1EF;
+      background-color: $light-grey;
       transform: translateX(-4px);
       padding-left: 4px;
     }
