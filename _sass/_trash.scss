@@ -1,0 +1,82 @@
+html {
+  
+  
+  #home {
+    
+    
+    .v-center {
+      
+    }
+    form p {
+      font-size: 24px;
+      color: $light-grey;
+    }
+    button {
+      background-color: $light-blue;
+      
+      &:first-child {
+        background-color: $off-white;
+      }
+    }
+    h6 {
+      color: $light-grey;
+    }
+
+  .bg-strip1 {
+    background-image: url("../images/bg-strip.png");
+    position: relative;
+    -webkit-background-size: 100% 100%;
+         -o-background-size: 100% 100%;
+            background-size: 100% 100%;
+    top: 72%;
+    width: 100%;
+    height: 7px;
+  }
+
+    .info {
+      position: relative;
+      top: 80%;
+      text-align: center;
+      
+      .dividor {
+        background-color: $light-blue;
+        width: 150px;
+        height: 4px;
+        position: relative;
+        margin: 0 auto;
+      }
+
+      p {
+        display: inline-block;
+        margin-top: 10px;
+      }
+      button {
+        display: block;
+        margin: 0 auto;
+        color: $light-blue;
+        background-color: $off-white;
+        border: 3px solid $light-blue;
+      }
+    }
+
+    .subscribe {
+      position: relative;
+      top: 95%;
+      text-align: center;
+      background-color: $dark-blue;
+      width: 100vw;
+      height: 50vh;
+
+      p {
+        color: $off-white;
+      }
+      .center-box {
+        text-align: center;
+        position: relative;
+        width: 20%;
+        margin: auto;
+        top: 120px;
+      }
+    }
+  }
+}
